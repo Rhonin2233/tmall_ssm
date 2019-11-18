@@ -1,0 +1,1953 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="myssm:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7b9435e9-f2a8-4562-bb56-a9608a75ccd5" name="Default Changelist" comment="项目首次提交">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myssm.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rhonin/myssm/controller/CategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rhonin/myssm/controller/ForeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rhonin/myssm/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rhonin/myssm/controller/PageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rhonin/myssm/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rhonin/myssm/controller/ProductImageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rhonin/myssm/controller/PropertyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rhonin/myssm/controller/PropertyValueController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rhonin/myssm/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rhonin/myssm/interceptor/LoginInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rhonin/myssm/interceptor/OtherInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rhonin/myssm/mapper/CategoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rhonin/myssm/mapper/OrderItemMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rhonin/myssm/mapper/OrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rhonin/myssm/mapper/ProductImageMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rhonin/myssm/mapper/ProductMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rhonin/myssm/mapper/PropertyMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rhonin/myssm/mapper/PropertyValueMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rhonin/myssm/mapper/ReferalLinkMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rhonin/myssm/mapper/ReviewMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rhonin/myssm/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rhonin/myssm/pojo/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rhonin/myssm/pojo/CategoryExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rhonin/myssm/pojo/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rhonin/myssm/pojo/OrderExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rhonin/myssm/pojo/OrderItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rhonin/myssm/pojo/OrderItemExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rhonin/myssm/pojo/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rhonin/myssm/pojo/ProductExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rhonin/myssm/pojo/ProductImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rhonin/myssm/pojo/ProductImageExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rhonin/myssm/pojo/Property.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rhonin/myssm/pojo/PropertyExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rhonin/myssm/pojo/PropertyValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rhonin/myssm/pojo/PropertyValueExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rhonin/myssm/pojo/ReferalLink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rhonin/myssm/pojo/ReferalLinkExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rhonin/myssm/pojo/Review.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rhonin/myssm/pojo/ReviewExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rhonin/myssm/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rhonin/myssm/pojo/UserExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rhonin/myssm/service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rhonin/myssm/service/CategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rhonin/myssm/service/OrderItemService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rhonin/myssm/service/OrderItemServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rhonin/myssm/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rhonin/myssm/service/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rhonin/myssm/service/ProductImageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rhonin/myssm/service/ProductImageServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rhonin/myssm/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rhonin/myssm/service/ProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rhonin/myssm/service/PropertyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rhonin/myssm/service/PropertyServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rhonin/myssm/service/PropertyValueService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rhonin/myssm/service/PropertyValueServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rhonin/myssm/service/ReviewService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rhonin/myssm/service/ReviewServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rhonin/myssm/service/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rhonin/myssm/service/UserSevice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rhonin/myssm/util/Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/CategoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/OrderItemMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/OrderMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/ProductImageMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/ProductMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/PropertyMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/PropertyValueMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/ReferalLinkMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/ReviewMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/springMVC.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/editCategory.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/editProduct.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/editProperty.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/editPropertyValue.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/listCategory.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/listOrder.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/listProduct.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/listProductImage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/listProperty.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/listUser.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fore/alipay.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fore/bought.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fore/buy.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fore/cart.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fore/category.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fore/confirmPay.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fore/editSuccess.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fore/home.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fore/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fore/orderConfirmed.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fore/payed.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fore/product.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fore/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fore/registerSuccess.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fore/review.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fore/reviewSuccess.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fore/searchResult.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fore/user.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/admin/adminFooter.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/admin/adminHeader.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/admin/adminNavigator.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/admin/adminPage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/fore/cart/alipayPage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/fore/cart/boughtPage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/fore/cart/buyPage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/fore/cart/cartPage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/fore/cart/confirmPayPage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/fore/cart/orderConfirmedPage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/fore/cart/payedPage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/fore/cart/reviewPage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/fore/category/categoryPage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/fore/category/productsByCategory.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/fore/category/sortBar.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/fore/editSuccessPage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/fore/footer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/fore/header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/fore/home/carousel.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/fore/home/categoryAndcarousel.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/fore/home/categoryMenu.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/fore/home/homePage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/fore/home/homepageCategoryProducts.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/fore/home/productsAsideCategorys.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/fore/loginPage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/fore/modal.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/fore/product/imgAndInfo.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/fore/product/productDetail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/fore/product/productPage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/fore/product/productReview.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/fore/productsBySearch.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/fore/registerPage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/fore/registerSuccessPage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/fore/reviewSuccessPage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/fore/search.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/fore/searchResultPage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/fore/simpleSearch.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/fore/top.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/fore/userPage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/back/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap/3.3.6/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap/3.3.6/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap/3.3.6/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap/3.3.6/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap/3.3.6/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap/3.3.6/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap/3.3.6/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap/3.3.6/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/fore/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/category/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/category/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/category/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/category/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/category/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/category/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/category/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/category/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/category/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/category/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/lunbo/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/lunbo/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/lunbo/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/lunbo/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/lunbo/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productDetail/106.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productDetail/107.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productDetail/108.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productDetail/109.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productDetail/110.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productDetail/111.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productDetail/121.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productDetail/122.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productDetail/123.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productDetail/124.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productDetail/131.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productDetail/141.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productDetail/142.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productDetail/143.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productDetail/144.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productDetail/145.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productDetail/146.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productDetail/157.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productDetail/158.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productDetail/159.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productDetail/16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productDetail/160.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productDetail/17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productDetail/171.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productDetail/172.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productDetail/173.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productDetail/174.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productDetail/175.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productDetail/176.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productDetail/177.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productDetail/18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productDetail/188.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productDetail/189.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productDetail/19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productDetail/190.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productDetail/191.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productDetail/192.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productDetail/193.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productDetail/195.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productDetail/196.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productDetail/197.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productDetail/20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productDetail/207.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productDetail/208.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productDetail/209.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productDetail/21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productDetail/210.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productDetail/211.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productDetail/222.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productDetail/223.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productDetail/224.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productDetail/225.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productDetail/226.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productDetail/227.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productDetail/239.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productDetail/240.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productDetail/241.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productDetail/242.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productDetail/243.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingle/101.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingle/102.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingle/103.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingle/104.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingle/105.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingle/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingle/112.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingle/113.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingle/114.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingle/115.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingle/116.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingle/117.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingle/118.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingle/119.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingle/12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingle/120.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingle/126.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingle/13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingle/132.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingle/133.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingle/134.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingle/135.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingle/136.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingle/137.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingle/138.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingle/139.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingle/14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingle/140.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingle/147.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingle/148.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingle/149.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingle/15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingle/150.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingle/151.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingle/152.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingle/153.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingle/154.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingle/155.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingle/156.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingle/161.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingle/162.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingle/163.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingle/164.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingle/165.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingle/166.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingle/167.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingle/168.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingle/169.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingle/170.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingle/178.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingle/179.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingle/180.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingle/181.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingle/182.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingle/183.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingle/184.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingle/185.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingle/186.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingle/187.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingle/194.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingle/198.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingle/199.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingle/200.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingle/201.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingle/202.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingle/203.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingle/204.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingle/205.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingle/206.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingle/212.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingle/213.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingle/214.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingle/215.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingle/216.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingle/217.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingle/218.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingle/219.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingle/22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingle/220.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingle/221.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingle/228.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingle/229.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingle/23.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingle/230.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingle/231.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingle/232.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingle/233.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingle/234.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingle/235.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingle/236.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingle/237.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingle/238.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingle/24.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingle/244.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingle/245.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingle/246.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingle/247.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingle/248.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingle/25.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingle/26.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/site/7day.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/site/TB1LF0CKFXXXXcAXFXXXXXXXXXX-21-20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/site/alipay.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/site/alipay2wei.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/site/buyflow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/site/canvas.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/site/cartNotSelected.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/site/cartSelected.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/site/catear.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/site/cateye.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/site/chaoshi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/site/comformPayFlow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/site/confirmOrderTmall.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/site/copyRight1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/site/copyRight2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/site/creditcard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/site/decrease.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/site/eachcategory.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/site/end.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/site/ensure.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/site/gouwujuan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/site/guoji.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/site/increase.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/site/leaveMessage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/site/li_dot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/site/loginBackground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/site/logo.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/site/ma.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/site/orderFinish.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/site/orderItemTmall.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/site/paySuccess.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/site/priceBackground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/site/promise.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/site/registerSuccess.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/site/renzheng.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/site/reviewLight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/site/simpleLogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/site/star/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/site/tmallbuy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/site/wangwang.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/site/wangwang.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/site/warning.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap/3.3.6/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap/3.3.6/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap/3.3.6/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery/2.0.0/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/GeneratorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/myssm.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/rhonin/myssm/controller/CategoryController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/rhonin/myssm/controller/ForeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/rhonin/myssm/controller/OrderController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/rhonin/myssm/controller/PageController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/rhonin/myssm/controller/ProductController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/rhonin/myssm/controller/ProductImageController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/rhonin/myssm/controller/PropertyController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/rhonin/myssm/controller/PropertyValueController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/rhonin/myssm/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/rhonin/myssm/interceptor/LoginInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/rhonin/myssm/interceptor/OtherInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/rhonin/myssm/mapper/CategoryMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/rhonin/myssm/mapper/OrderItemMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/rhonin/myssm/mapper/OrderMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/rhonin/myssm/mapper/ProductImageMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/rhonin/myssm/mapper/ProductMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/rhonin/myssm/mapper/PropertyMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/rhonin/myssm/mapper/PropertyValueMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/rhonin/myssm/mapper/ReferalLinkMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/rhonin/myssm/mapper/ReviewMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/rhonin/myssm/mapper/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/rhonin/myssm/pojo/Category.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/rhonin/myssm/pojo/CategoryExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/rhonin/myssm/pojo/CategoryExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/rhonin/myssm/pojo/CategoryExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/rhonin/myssm/pojo/CategoryExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/rhonin/myssm/pojo/Order.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/rhonin/myssm/pojo/OrderExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/rhonin/myssm/pojo/OrderExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/rhonin/myssm/pojo/OrderExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/rhonin/myssm/pojo/OrderExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/rhonin/myssm/pojo/OrderItem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/rhonin/myssm/pojo/OrderItemExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/rhonin/myssm/pojo/OrderItemExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/rhonin/myssm/pojo/OrderItemExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/rhonin/myssm/pojo/OrderItemExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/rhonin/myssm/pojo/Product.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/rhonin/myssm/pojo/ProductExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/rhonin/myssm/pojo/ProductExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/rhonin/myssm/pojo/ProductExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/rhonin/myssm/pojo/ProductExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/rhonin/myssm/pojo/ProductImage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/rhonin/myssm/pojo/ProductImageExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/rhonin/myssm/pojo/ProductImageExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/rhonin/myssm/pojo/ProductImageExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/rhonin/myssm/pojo/ProductImageExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/rhonin/myssm/pojo/Property.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/rhonin/myssm/pojo/PropertyExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/rhonin/myssm/pojo/PropertyExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/rhonin/myssm/pojo/PropertyExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/rhonin/myssm/pojo/PropertyExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/rhonin/myssm/pojo/PropertyValue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/rhonin/myssm/pojo/PropertyValueExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/rhonin/myssm/pojo/PropertyValueExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/rhonin/myssm/pojo/PropertyValueExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/rhonin/myssm/pojo/PropertyValueExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/rhonin/myssm/pojo/ReferalLink.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/rhonin/myssm/pojo/ReferalLinkExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/rhonin/myssm/pojo/ReferalLinkExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/rhonin/myssm/pojo/ReferalLinkExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/rhonin/myssm/pojo/ReferalLinkExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/rhonin/myssm/pojo/Review.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/rhonin/myssm/pojo/ReviewExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/rhonin/myssm/pojo/ReviewExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/rhonin/myssm/pojo/ReviewExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/rhonin/myssm/pojo/ReviewExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/rhonin/myssm/pojo/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/rhonin/myssm/pojo/UserExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/rhonin/myssm/pojo/UserExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/rhonin/myssm/pojo/UserExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/rhonin/myssm/pojo/UserExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/rhonin/myssm/service/CategoryService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/rhonin/myssm/service/CategoryServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/rhonin/myssm/service/OrderItemService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/rhonin/myssm/service/OrderItemServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/rhonin/myssm/service/OrderService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/rhonin/myssm/service/OrderServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/rhonin/myssm/service/ProductImageService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/rhonin/myssm/service/ProductImageServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/rhonin/myssm/service/ProductService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/rhonin/myssm/service/ProductServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/rhonin/myssm/service/PropertyService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/rhonin/myssm/service/PropertyServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/rhonin/myssm/service/PropertyValueService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/rhonin/myssm/service/PropertyValueServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/rhonin/myssm/service/ReviewService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/rhonin/myssm/service/ReviewServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/rhonin/myssm/service/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/rhonin/myssm/service/UserSevice.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/rhonin/myssm/util/Page.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/generatorConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/CategoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/OrderItemMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/OrderMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/ProductImageMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/ProductMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/PropertyMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/PropertyValueMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/ReferalLinkMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/ReviewMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/springMVC.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/GeneratorTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/META-INF/myssm.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/rhonin/myssm/controller/CategoryController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/rhonin/myssm/controller/ForeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/rhonin/myssm/controller/OrderController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/rhonin/myssm/controller/PageController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/rhonin/myssm/controller/ProductController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/rhonin/myssm/controller/ProductImageController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/rhonin/myssm/controller/PropertyController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/rhonin/myssm/controller/PropertyValueController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/rhonin/myssm/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/rhonin/myssm/interceptor/LoginInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/rhonin/myssm/interceptor/OtherInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/rhonin/myssm/mapper/CategoryMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/rhonin/myssm/mapper/OrderItemMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/rhonin/myssm/mapper/OrderMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/rhonin/myssm/mapper/ProductImageMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/rhonin/myssm/mapper/ProductMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/rhonin/myssm/mapper/PropertyMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/rhonin/myssm/mapper/PropertyValueMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/rhonin/myssm/mapper/ReferalLinkMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/rhonin/myssm/mapper/ReviewMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/rhonin/myssm/mapper/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/rhonin/myssm/pojo/Category.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/rhonin/myssm/pojo/CategoryExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/rhonin/myssm/pojo/CategoryExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/rhonin/myssm/pojo/CategoryExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/rhonin/myssm/pojo/CategoryExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/rhonin/myssm/pojo/Order.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/rhonin/myssm/pojo/OrderExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/rhonin/myssm/pojo/OrderExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/rhonin/myssm/pojo/OrderExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/rhonin/myssm/pojo/OrderExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/rhonin/myssm/pojo/OrderItem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/rhonin/myssm/pojo/OrderItemExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/rhonin/myssm/pojo/OrderItemExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/rhonin/myssm/pojo/OrderItemExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/rhonin/myssm/pojo/OrderItemExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/rhonin/myssm/pojo/Product.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/rhonin/myssm/pojo/ProductExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/rhonin/myssm/pojo/ProductExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/rhonin/myssm/pojo/ProductExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/rhonin/myssm/pojo/ProductExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/rhonin/myssm/pojo/ProductImage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/rhonin/myssm/pojo/ProductImageExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/rhonin/myssm/pojo/ProductImageExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/rhonin/myssm/pojo/ProductImageExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/rhonin/myssm/pojo/ProductImageExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/rhonin/myssm/pojo/Property.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/rhonin/myssm/pojo/PropertyExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/rhonin/myssm/pojo/PropertyExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/rhonin/myssm/pojo/PropertyExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/rhonin/myssm/pojo/PropertyExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/rhonin/myssm/pojo/PropertyValue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/rhonin/myssm/pojo/PropertyValueExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/rhonin/myssm/pojo/PropertyValueExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/rhonin/myssm/pojo/PropertyValueExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/rhonin/myssm/pojo/PropertyValueExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/rhonin/myssm/pojo/ReferalLink.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/rhonin/myssm/pojo/ReferalLinkExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/rhonin/myssm/pojo/ReferalLinkExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/rhonin/myssm/pojo/ReferalLinkExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/rhonin/myssm/pojo/ReferalLinkExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/rhonin/myssm/pojo/Review.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/rhonin/myssm/pojo/ReviewExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/rhonin/myssm/pojo/ReviewExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/rhonin/myssm/pojo/ReviewExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/rhonin/myssm/pojo/ReviewExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/rhonin/myssm/pojo/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/rhonin/myssm/pojo/UserExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/rhonin/myssm/pojo/UserExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/rhonin/myssm/pojo/UserExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/rhonin/myssm/pojo/UserExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/rhonin/myssm/service/CategoryService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/rhonin/myssm/service/CategoryServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/rhonin/myssm/service/OrderItemService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/rhonin/myssm/service/OrderItemServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/rhonin/myssm/service/OrderService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/rhonin/myssm/service/OrderServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/rhonin/myssm/service/ProductImageService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/rhonin/myssm/service/ProductImageServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/rhonin/myssm/service/ProductService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/rhonin/myssm/service/ProductServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/rhonin/myssm/service/PropertyService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/rhonin/myssm/service/PropertyServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/rhonin/myssm/service/PropertyValueService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/rhonin/myssm/service/PropertyValueServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/rhonin/myssm/service/ReviewService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/rhonin/myssm/service/ReviewServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/rhonin/myssm/service/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/rhonin/myssm/service/UserSevice.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/rhonin/myssm/util/Page.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/generatorConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/mapper/CategoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/mapper/OrderItemMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/mapper/OrderMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/mapper/ProductImageMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/mapper/ProductMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/mapper/PropertyMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/mapper/PropertyValueMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/mapper/ReferalLinkMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/mapper/ReviewMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/springMVC.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/lib/aopalliance-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/lib/aspectjweaver-1.8.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/lib/commons-fileupload-1.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/lib/commons-io-1.3.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/lib/commons-lang-2.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/lib/druid-1.1.20.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/lib/hamcrest-core-1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/lib/jackson-annotations-2.6.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/lib/jackson-core-2.6.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/lib/jackson-databind-2.6.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/lib/jsqlparser-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/lib/junit-4.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/lib/log4j-1.2.16.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/lib/mybatis-3.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/lib/mybatis-generator-core-1.3.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/lib/mybatis-spring-1.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/lib/mysql-connector-java-8.0.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/lib/pagehelper-5.1.2-beta.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/lib/protobuf-java-3.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/lib/spring-aop-4.1.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/lib/spring-aspects-4.1.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/lib/spring-beans-4.1.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/lib/spring-context-4.1.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/lib/spring-core-4.1.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/lib/spring-expression-4.1.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/lib/spring-jdbc-4.1.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/lib/spring-test-4.1.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/lib/spring-tx-4.1.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/lib/spring-web-4.1.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/lib/spring-webmvc-4.1.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/views/admin/editCategory.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/views/admin/editProduct.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/views/admin/editProperty.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/views/admin/editPropertyValue.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/views/admin/listCategory.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/views/admin/listOrder.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/views/admin/listProduct.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/views/admin/listProductImage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/views/admin/listProperty.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/views/admin/listUser.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/views/fore/alipay.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/views/fore/bought.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/views/fore/buy.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/views/fore/cart.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/views/fore/category.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/views/fore/confirmPay.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/views/fore/editSuccess.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/views/fore/home.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/views/fore/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/views/fore/orderConfirmed.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/views/fore/payed.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/views/fore/product.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/views/fore/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/views/fore/registerSuccess.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/views/fore/review.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/views/fore/reviewSuccess.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/views/fore/searchResult.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/views/fore/user.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/views/include/admin/adminFooter.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/views/include/admin/adminHeader.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/views/include/admin/adminNavigator.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/views/include/admin/adminPage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/views/include/fore/cart/alipayPage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/views/include/fore/cart/boughtPage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/views/include/fore/cart/buyPage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/views/include/fore/cart/cartPage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/views/include/fore/cart/confirmPayPage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/views/include/fore/cart/orderConfirmedPage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/views/include/fore/cart/payedPage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/views/include/fore/cart/reviewPage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/views/include/fore/category/categoryPage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/views/include/fore/category/productsByCategory.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/views/include/fore/category/sortBar.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/views/include/fore/editSuccessPage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/views/include/fore/footer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/views/include/fore/header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/views/include/fore/home/carousel.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/views/include/fore/home/categoryAndcarousel.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/views/include/fore/home/categoryMenu.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/views/include/fore/home/homePage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/views/include/fore/home/homepageCategoryProducts.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/views/include/fore/home/productsAsideCategorys.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/views/include/fore/loginPage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/views/include/fore/modal.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/views/include/fore/product/imgAndInfo.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/views/include/fore/product/productDetail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/views/include/fore/product/productPage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/views/include/fore/product/productReview.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/views/include/fore/productsBySearch.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/views/include/fore/registerPage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/views/include/fore/registerSuccessPage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/views/include/fore/reviewSuccessPage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/views/include/fore/search.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/views/include/fore/searchResultPage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/views/include/fore/simpleSearch.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/views/include/fore/top.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/views/include/fore/userPage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/admin/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/css/back/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/css/bootstrap/3.3.6/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/css/bootstrap/3.3.6/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/css/bootstrap/3.3.6/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/css/bootstrap/3.3.6/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/css/bootstrap/3.3.6/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/css/bootstrap/3.3.6/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/css/bootstrap/3.3.6/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/css/bootstrap/3.3.6/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/css/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/css/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/css/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/css/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/css/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/css/fore/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/category/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/category/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/category/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/category/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/category/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/category/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/category/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/category/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/category/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/category/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/lunbo/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/lunbo/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/lunbo/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/lunbo/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/lunbo/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productDetail/106.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productDetail/107.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productDetail/108.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productDetail/109.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productDetail/110.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productDetail/111.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productDetail/121.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productDetail/122.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productDetail/123.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productDetail/124.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productDetail/131.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productDetail/141.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productDetail/142.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productDetail/143.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productDetail/144.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productDetail/145.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productDetail/146.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productDetail/157.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productDetail/158.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productDetail/159.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productDetail/16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productDetail/160.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productDetail/17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productDetail/171.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productDetail/172.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productDetail/173.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productDetail/174.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productDetail/175.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productDetail/176.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productDetail/177.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productDetail/18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productDetail/188.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productDetail/189.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productDetail/19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productDetail/190.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productDetail/191.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productDetail/192.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productDetail/193.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productDetail/195.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productDetail/196.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productDetail/197.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productDetail/20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productDetail/207.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productDetail/208.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productDetail/209.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productDetail/21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productDetail/210.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productDetail/211.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productDetail/222.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productDetail/223.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productDetail/224.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productDetail/225.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productDetail/226.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productDetail/227.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productDetail/239.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productDetail/240.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productDetail/241.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productDetail/242.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productDetail/243.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/101.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/102.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/103.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/104.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/105.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/112.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/113.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/114.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/115.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/116.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/117.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/118.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/119.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/120.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/126.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/132.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/133.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/134.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/135.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/136.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/137.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/138.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/139.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/140.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/147.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/148.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/149.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/150.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/151.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/152.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/153.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/154.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/155.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/156.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/161.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/162.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/163.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/164.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/165.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/166.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/167.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/168.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/169.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/170.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/178.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/179.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/180.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/181.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/182.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/183.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/184.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/185.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/186.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/187.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/194.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/198.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/199.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/200.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/201.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/202.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/203.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/204.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/205.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/206.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/212.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/213.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/214.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/215.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/216.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/217.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/218.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/219.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/220.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/221.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/228.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/229.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/23.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/230.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/231.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/232.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/233.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/234.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/235.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/236.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/237.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/238.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/24.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/244.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/245.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/246.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/247.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/248.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/25.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/26.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/site/7day.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/site/TB1LF0CKFXXXXcAXFXXXXXXXXXX-21-20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/site/alipay.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/site/alipay2wei.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/site/buyflow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/site/canvas.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/site/cartNotSelected.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/site/cartSelected.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/site/catear.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/site/cateye.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/site/chaoshi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/site/comformPayFlow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/site/confirmOrderTmall.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/site/copyRight1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/site/copyRight2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/site/creditcard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/site/decrease.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/site/eachcategory.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/site/end.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/site/ensure.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/site/gouwujuan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/site/guoji.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/site/increase.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/site/leaveMessage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/site/li_dot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/site/loginBackground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/site/logo.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/site/ma.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/site/orderFinish.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/site/orderItemTmall.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/site/paySuccess.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/site/priceBackground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/site/promise.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/site/registerSuccess.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/site/renzheng.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/site/reviewLight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/site/simpleLogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/site/star/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/site/tmallbuy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/site/wangwang.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/site/wangwang.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/site/warning.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/js/bootstrap/3.3.6/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/js/bootstrap/3.3.6/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/js/bootstrap/3.3.6/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/js/jquery/2.0.0/jquery.min.js" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/rhonin/myssm/controller/ForeController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="520">
+              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>category</find>
+      <find>Category</find>
+      <find>Property</find>
+      <find>property</find>
+      <find>categoryPictureInProductPage</find>
+      <find>waitPay</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/fore/category/sortBar.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fore/searchResult.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/fore/searchResultPage.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/rhonin/myssm/service/ProductService.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/fore/productsBySearch.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/rhonin/myssm/service/UserSevice.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/rhonin/myssm/service/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fore/buy.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fore/cart.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/fore/product/imgAndInfo.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/springMVC.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/rhonin/myssm/interceptor/LoginInterceptor.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/fore/searchPage.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/fore/cart/cartPage.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/rhonin/myssm/service/OrderItemServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fore/alipay.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fore/payed.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/OrderMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/fore/cart/buyPage.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/fore/cart/alipayPage.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/rhonin/myssm/interceptor/OtherInterceptor.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/fore/cart/payedPage.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fore/bought.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/rhonin/myssm/service/OrderItemService.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/OrderItemMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/rhonin/myssm/mapper/OrderItemMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/rhonin/myssm/service/OrderService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/rhonin/myssm/service/OrderServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fore/confirmPay.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/fore/cart/confirmPayPage.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fore/orderConfirmed.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/fore/cart/orderConfirmedPage.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fore/review.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/fore/cart/boughtPage.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/rhonin/myssm/controller/OrderController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/rhonin/myssm/service/ProductServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fore/reviewSuccess.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/fore/reviewSuccessPage.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/css/fore/style.css" />
+        <option value="$PROJECT_DIR$/src/main/java/com/rhonin/myssm/pojo/Review.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/fore/cart/reviewPage.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/rhonin/myssm/service/ReviewService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/rhonin/myssm/service/ReviewServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fore/user.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/fore/top.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/rhonin/myssm/controller/PageController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/rhonin/myssm/controller/ForeController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fore/editSuccess.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/fore/editSuccessPage.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/fore/userPage.jsp" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="E:\rhonin\maven\apache-maven-3.6.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="tmall_ssm" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="tmall_ssm" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="838" />
+    <option name="y" value="40" />
+    <option name="width" value="1356" />
+    <option name="height" value="1313" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="myssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myssm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myssm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myssm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myssm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myssm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="myssm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myssm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="myssm" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myssm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myssm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myssm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../git/gitRepository" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.12515645" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\rhonin\JavaWeb\myssm\src\main\resources" />
+      <recent name="E:\rhonin\JavaWeb\myssm\src" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\rhonin\JavaWeb\myssm\src\main\webapp\WEB-INF\views\fore" />
+      <recent name="E:\rhonin\JavaWeb\myssm\src\main\webapp\css\fore" />
+      <recent name="E:\rhonin\JavaWeb\myssm\src\main\webapp\WEB-INF\views\admin" />
+      <recent name="E:\rhonin\JavaWeb\myssm\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.tomcat7">
+    <configuration name="GeneratorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java.GeneratorTest" />
+      <module name="myssm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GeneratorTest.Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myssm" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GeneratorTest" />
+      <option name="METHOD_NAME" value="Test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script" nameIsGenerated="true">
+      <module name="myssm" />
+      <option name="filePath" value="" />
+      <option name="vmParameters" value="" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" value="" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" value="" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" value="" />
+      <option name="vmParameters" value="" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" value="" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" value="" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="myssm [jetty:run]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="jetty:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="tomcat7" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomca7" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
+      <deployment>
+        <artifact name="myssm:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/myssm" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_myssm" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="49728" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="myssm:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.GeneratorTest" />
+      <item itemvalue="JUnit.GeneratorTest.Test" />
+      <item itemvalue="Kotlin script.Unnamed" />
+      <item itemvalue="Maven.myssm [jetty:run]" />
+      <item itemvalue="Tomcat Server.tomcat7" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.GeneratorTest.Test" />
+        <item itemvalue="Application.GeneratorTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\ZHT\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7b9435e9-f2a8-4562-bb56-a9608a75ccd5" name="Default Changelist" comment="" />
+      <created>1572259823990</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1572259823990</updated>
+      <workItem from="1572259828110" duration="6841000" />
+      <workItem from="1572507317389" duration="10866000" />
+      <workItem from="1572600143538" duration="23609000" />
+      <workItem from="1572695218484" duration="6876000" />
+      <workItem from="1572761644343" duration="14055000" />
+      <workItem from="1572862221066" duration="7185000" />
+      <workItem from="1572950046181" duration="9989000" />
+      <workItem from="1573038808107" duration="15841000" />
+      <workItem from="1573104868218" duration="17765000" />
+      <workItem from="1573195859892" duration="16248000" />
+      <workItem from="1573280450490" duration="49594000" />
+      <workItem from="1573400572993" duration="115663000" />
+      <workItem from="1573801477719" duration="24298000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="GeneratorTest_Test - 2019.11.01 at 20h 41m 54s.xml">
+      <configuration name="GeneratorTest.Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GeneratorTest_Test - 2019.11.01 at 20h 52m 31s.xml">
+      <configuration name="GeneratorTest.Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GeneratorTest_Test - 2019.11.01 at 20h 52m 55s.xml">
+      <configuration name="GeneratorTest.Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GeneratorTest_Test - 2019.11.01 at 20h 53m 26s.xml">
+      <configuration name="GeneratorTest.Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GeneratorTest_Test - 2019.11.03 at 15h 39m 21s.xml">
+      <configuration name="GeneratorTest.Test" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="318830000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="838" y="40" width="1356" height="1313" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26080248" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Web" order="2" side_tool="true" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329661" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36271188" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39793283" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32973945" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32973945" />
+      <window_info anchor="bottom" id="Spring" order="13" />
+      <window_info anchor="bottom" id="Application Servers" order="14" weight="0.32973945" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.32654792" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.3294753" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2939815" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Web" order="2" side_tool="true" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329661" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.36271188" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39793283" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32973945" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32973945" />
+      <window_info anchor="bottom" id="Spring" order="13" />
+      <window_info anchor="bottom" id="Application Servers" order="14" weight="0.32973945" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.32711864" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.3294753" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="项目首次提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="项目首次提交" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/OrderItemMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="67" column="27" selection-start-line="67" selection-start-column="14" selection-end-line="67" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/fore/modal.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-482" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fore/category.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="2" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/fore/cart/cartPage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="133" column="31" selection-start-line="133" selection-start-column="23" selection-end-line="133" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fore/confirmPay.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/listOrder.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="89" column="44" selection-start-line="89" selection-start-column="44" selection-end-line="89" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fore/orderConfirmed.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="46" lean-forward="true" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/rhonin/myssm/service/OrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="10" column="35" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fore/searchResult.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="1" selection-start-line="1" selection-end-line="2" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/fore/cart/confirmPayPage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-807">
+          <caret line="12" column="81" selection-start-line="12" selection-start-column="81" selection-end-line="12" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/fore/cart/payedPage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="23" column="55" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/rhonin/myssm/service/ProductServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="43" column="50" selection-start-line="43" selection-start-column="50" selection-end-line="43" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/rhonin/myssm/pojo/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="21" column="28" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/fore/cart/orderConfirmedPage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="52" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fore/registerSuccess.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="1" selection-start-line="1" selection-end-line="8" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/fore/registerSuccessPage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/rhonin/myssm/pojo/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="23" column="35" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/listProduct.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="64" column="97" selection-start-line="64" selection-start-column="63" selection-end-line="64" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/fore/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="2098" column="22" selection-start-line="2098" selection-start-column="22" selection-end-line="2098" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/rhonin/myssm/service/OrderServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="492">
+          <caret line="40" column="4" lean-forward="true" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="86" />
+          <folding>
+            <element signature="e#2100#2101#0" expanded="true" />
+            <element signature="e#2162#2163#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/rhonin/myssm/controller/OrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1248">
+          <caret line="62" column="43" lean-forward="true" selection-start-line="62" selection-start-column="43" selection-end-line="62" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/rhonin/myssm/pojo/Review.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/rhonin/myssm/service/ReviewService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="9" column="45" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/rhonin/myssm/service/ReviewServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="32" column="9" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/fore/cart/buyPage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/fore/cart/boughtPage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3276">
+          <caret line="126" column="54" selection-start-line="126" selection-start-column="54" selection-end-line="126" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fore/review.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fore/payed.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="52" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fore/alipay.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="1" selection-start-line="1" selection-end-line="2" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fore/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="38" lean-forward="true" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fore/register.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="1" selection-start-line="1" selection-end-line="14" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fore/user.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="48" lean-forward="true" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/fore/registerPage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" lean-forward="true" selection-end-line="90" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/fore/cart/reviewPage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="754">
+          <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/rhonin/myssm/controller/PageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/fore/loginPage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="934">
+          <caret line="73" column="41" lean-forward="true" selection-start-line="73" selection-start-column="41" selection-end-line="73" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/fore/userPage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/fore/top.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fore/reviewSuccess.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/fore/editSuccessPage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/fore/reviewSuccessPage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" column="21" lean-forward="true" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fore/editSuccess.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="52" lean-forward="true" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="53" selection-start-line="4" selection-start-column="53" selection-end-line="4" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/editCategory.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="27" column="54" selection-start-line="27" selection-start-column="54" selection-end-line="27" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/springMVC.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1175" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/rhonin/myssm/controller/CategoryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-471">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/rhonin/myssm/controller/ForeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>myssm:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>myssm</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
